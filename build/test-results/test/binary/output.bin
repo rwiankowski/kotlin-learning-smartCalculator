@@ -1,0 +1,46 @@
+[1;31m
+Start test 1[0m
+> /help
+¿The program calculates expressions like : 4 + 6 - 8, 2 - 3 - 4, and so on. It supports both unary and binary minus operators. The program accepts several same operators following each other.
+> 
+> /exit
+Bye!
+[1;31m
+Start test 2[0m
+> 7 + 1 + 4
+12
+> 23 - 17 - 13
+-7
+*> 33 + 21 + 11 + 49 - 32 - 9 + 1 - 80 + 4
+-2
+> 101
+101
+> -302
+-302
+> 
+> 10 - 7 - 3
+0
+> 5 --- 2 ++++++ 4 -- 2 ---- 1
+10
+> /exit
+Bye!
+[1;31m
+Start test 3[0m
+> 123+
+Invalid expression
+> 321-
+Invalid expression
+> +7
+7
+> /exit
+Bye!
+[1;31m
+Start test 4[0m
+> abc
+Invalid expression
+> one + two + three
+Invalid expression
+> /go
+Unknown command
+> /exit
+Bye!
